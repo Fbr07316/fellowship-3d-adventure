@@ -10,7 +10,7 @@ const characters = [
     id: 'frodo',
     name: 'Frodo Baggins',
     race: 'Hobbit',
-    image: '/images/frodo.jpg',
+    image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7',
     description: 'The Ring-bearer and protagonist of The Lord of the Rings, who undertakes the quest to destroy the One Ring in the fires of Mount Doom.',
     quote: 'I wish the Ring had never come to me. I wish none of this had happened.'
   },
@@ -18,7 +18,7 @@ const characters = [
     id: 'gandalf',
     name: 'Gandalf',
     race: 'Maia',
-    image: '/images/gandalf.jpg',
+    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
     description: 'A wizard and one of the Istari sent to Middle-earth to contest the will of Sauron. He guides and mentors Frodo on his quest.',
     quote: 'All we have to decide is what to do with the time that is given us.'
   },
@@ -26,7 +26,7 @@ const characters = [
     id: 'aragorn',
     name: 'Aragorn',
     race: 'Human',
-    image: '/images/aragorn.jpg',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475',
     description: 'The heir of Isildur and rightful claimant to the thrones of Arnor and Gondor. He helps Frodo on his quest and eventually becomes King Elessar.',
     quote: 'I would have gone with you to the end, into the very fires of Mordor.'
   },
@@ -34,7 +34,7 @@ const characters = [
     id: 'legolas',
     name: 'Legolas',
     race: 'Elf',
-    image: '/images/legolas.jpg',
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6',
     description: 'A Sindarin Elf of the Woodland Realm and one of the nine members of the Fellowship of the Ring.',
     quote: 'They\'re taking the Hobbits to Isengard!'
   },
@@ -42,7 +42,7 @@ const characters = [
     id: 'gimli',
     name: 'Gimli',
     race: 'Dwarf',
-    image: '/images/gimli.jpg',
+    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
     description: 'Son of Glóin and a member of the Fellowship of the Ring. Despite initial mistrust, he forms a close friendship with Legolas.',
     quote: 'Nobody tosses a Dwarf!'
   },
@@ -50,7 +50,7 @@ const characters = [
     id: 'samwise',
     name: 'Samwise Gamgee',
     race: 'Hobbit',
-    image: '/images/sam.jpg',
+    image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7',
     description: 'Frodo\'s loyal gardener who accompanies him on the quest to destroy the One Ring, eventually carrying him up Mount Doom.',
     quote: 'I can\'t carry it for you, but I can carry you!'
   },
@@ -58,7 +58,7 @@ const characters = [
     id: 'galadriel',
     name: 'Galadriel',
     race: 'Elf',
-    image: '/images/galadriel.jpg',
+    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
     description: 'The Lady of Lórien, one of the greatest of the Eldar in Middle-earth, and the bearer of Nenya, one of the three Elven Rings of Power.',
     quote: 'Even the smallest person can change the course of the future.'
   },
@@ -66,7 +66,7 @@ const characters = [
     id: 'sauron',
     name: 'Sauron',
     race: 'Maia',
-    image: '/images/sauron.jpg',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475',
     description: 'The primary antagonist of The Lord of the Rings. Once a Maia of Aulë, he was corrupted by Melkor and forged the One Ring to dominate all life in Middle-earth.',
     quote: 'You cannot hide. I see you.'
   }

@@ -10,28 +10,28 @@ const featuredSections = [
     id: 'characters',
     title: 'Characters',
     description: 'Meet the heroes and villains of Middle-earth.',
-    image: '/images/characters.jpg',
+    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
     link: '/characters'
   },
   {
     id: 'map',
     title: 'Middle-earth Map',
     description: 'Explore the lands of Tolkien\'s legendary world.',
-    image: '/images/map.jpg',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475',
     link: '/map'
   },
   {
     id: 'timeline',
     title: 'Timeline',
     description: 'Follow the major events of the saga.',
-    image: '/images/timeline.jpg',
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6',
     link: '/timeline'
   },
   {
     id: 'gallery',
     title: 'Gallery',
     description: 'Discover iconic scenes and moments.',
-    image: '/images/gallery.jpg',
+    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
     link: '/gallery'
   }
 ];
