@@ -19,6 +19,19 @@ const CharacterCard = ({
   quote
 }: CharacterCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const [imageError, setImageError] = useState(false);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
+  const handleImageError = () => {
+    setImageError(true);
+  };
+
+  // Fallback image if the character image fails to load
+  const fallbackImage = 'https://cdn.pixabay.com/photo/2016/09/28/02/14/medieval-1699357_1280.jpg';
 
   return (
     <div
@@ -28,11 +41,20 @@ const CharacterCard = ({
     >
       {/* Character Image with Gradient Overlay */}
       <div className="absolute inset-0 w-full h-full">
+        {!imageLoaded && !imageError && (
+          <div className="w-full h-full flex items-center justify-center bg-lotr-dark/50">
+            <div className="w-12 h-12 border-4 border-lotr-gold/30 border-t-lotr-gold rounded-full animate-spin"></div>
+          </div>
+        )}
         <img
-          src={image}
+          src={imageError ? fallbackImage : image}
           alt={name}
-          className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110"
+          className={`w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110 ${
+            imageLoaded ? 'opacity-100' : 'opacity-0'
+          }`}
           loading="lazy"
+          onLoad={handleImageLoad}
+          onError={handleImageError}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-lotr-dark via-lotr-dark/40 to-transparent" />
       </div>
